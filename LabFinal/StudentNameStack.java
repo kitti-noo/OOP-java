@@ -19,6 +19,7 @@ public class StudentNameStack extends Stack {
         return name;
           
     }   //Removes and returns the item from the top of stack
+    
     public static void main(String[] args) {
         Stack s = new StudentNameStack();
         s.push("Manee");

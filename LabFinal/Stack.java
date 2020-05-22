@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 
-
 public abstract class Stack {
     protected ArrayList<Object> myStack ;
     public int size(){ return myStack.size(); };
