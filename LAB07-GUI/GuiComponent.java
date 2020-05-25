@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.*;
-//import java.awt.event.*;
 
 public class GuiComponent extends JFrame {
     private JLabel name = new JLabel("Name : ");
