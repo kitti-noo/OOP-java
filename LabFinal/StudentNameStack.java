@@ -5,20 +5,20 @@ public class StudentNameStack extends Stack {
     {
         myStack = new ArrayList<Object>();
     }
-    public boolean isEmpty(){
+    public boolean isEmpty(){ //Returns true if stack is empty
         return myStack.isEmpty();
         
-    } //Returns true if stack is empty
-    public void push(Object o){
+    } 
+    public void push(Object o){ //Adds an item to the top of stack
         myStack.add(o);
  
-    } //Adds an item to the top of stack
-    public Object pop(){
+    } 
+    public Object pop(){  //Removes and returns the item from the top of stack
         Object name;
         name = myStack.remove(myStack.size()-1);
         return name;
           
-    }   //Removes and returns the item from the top of stack
+    }  
     
     public static void main(String[] args) {
         Stack s = new StudentNameStack();
