@@ -1,4 +1,3 @@
-
 // Squares.java
 /* Andrew Davison, ad@fivedots.coe.psu.ac.th, April 2020 */
 
